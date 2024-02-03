@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .btn-primary-fill {
+        @apply h-10 px-4 bg-primary-50 rounded-lg text-white-100 hover:bg-primary-60 transition-colors duration-300;
+    }
+    .btn-primary-outlined {
+        @apply h-10 px-4 border border-solid border-primary-50 rounded-lg text-primary-50 hover:border-primary-60 hover:text-primary-60 transition-colors duration-300;
+    }
+}
