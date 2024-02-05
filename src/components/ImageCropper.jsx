@@ -70,7 +70,12 @@ const ImageCropper = ({ imageSrc, file, setOpenCropper }) => {
                 </div>
                 <div className="flex flex-col gap-y-3">
                     <div className="flex flex-col gap-y-2">
-                        <label htmlFor="zoom-input">Zoom: {parseInt(zoom * 100)}%</label>
+                        <label
+                            htmlFor="zoom-input"
+                            className="text-primary-90 font-medium"
+                        >
+                            Zoom: {parseInt(zoom * 100)}%
+                        </label>
                         <input
                             type="range"
                             id="zoom-input"
